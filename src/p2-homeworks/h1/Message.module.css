@@ -1,0 +1,45 @@
+.item {
+    display: flex;
+    align-items: flex-end;
+    background-color: lightskyblue;
+    width: 50%;
+    margin: 10px;
+}
+
+.item img {
+    position: relative;
+    top: 20px;
+    align-items: flex-end;
+    margin-left: 15px;
+    width: 70px;
+    clip-path: circle(40% at 50% 40%);
+}
+
+.content {
+    padding: 10px;
+    border-radius: 5px 5px 5px 0px;
+    background-color: cornflowerblue;
+}
+
+.angle {
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle at 0 0, rgb(135, 206, 250) 15px, rgb(100, 149, 237) 0);
+}
+
+.name {
+    color: navy;
+    font-weight: bold;
+}
+
+.message {
+    display: inline-block;
+    word-wrap: break-word;
+    min-width: 150px;
+    max-width: 300px;
+}
+
+.time {
+    display: flex;
+    justify-content: flex-end;
+}
