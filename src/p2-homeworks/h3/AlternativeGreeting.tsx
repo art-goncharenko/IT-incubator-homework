@@ -4,6 +4,7 @@ function AlternativeGreeting() {
     return (
         <div>
 
+
         </div>
     );
 }
