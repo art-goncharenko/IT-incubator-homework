@@ -1,5 +1,19 @@
-.someClass {
+.HW3 {
+    display: flex;
+    justify-content: center;
+}
+.homeworkTitle {
+}
+.inputClass {
+    display: flex;
+    /*justify-content: center;*/
+    /*width: 100%;*/
+    /*flex-basis: 100%;*/
+    /*flex-grow: 1;*/
+}
 
+.errorClass {
+    display: block;
 }
 
 .error {

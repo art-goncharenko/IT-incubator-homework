@@ -1,5 +1,6 @@
 import React from 'react'
 import {AffairType} from "./HW2";
+import style from './Affairs.module.css'
 
 type AffairPropsType = {
     // key не нужно типизировать
@@ -8,13 +9,21 @@ type AffairPropsType = {
 }
 
 function Affair(props: AffairPropsType) {
-    const deleteCallback = () => {props.deleteAffairCallback(props.affair._id)}// need to fix
+    const deleteCallback = () => {
+        props.deleteAffairCallback(props.affair._id)
+    }// need to fix
     return (
         <div>
-            <div> {props.affair.name}</div>
-            <div> {props.affair.priority}</div>
-            <button onClick={deleteCallback}>X</button>
+            <div className={style.affairStyle}>
+                 <div className={style.affairStyle}>{props.affair.name}</div>
+                <div className={style.affairStyle1}>{props.affair.priority}</div>
+            </div>
+            <div className={style.affairStyle}>
+                <button onClick={deleteCallback}>X</button>
+            </div>
         </div>
+
+
     )
 }
 

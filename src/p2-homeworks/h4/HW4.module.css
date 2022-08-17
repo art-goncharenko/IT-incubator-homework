@@ -11,3 +11,9 @@
 .testSpanError {
     color: blue;
 }
+
+button:disabled {
+    --input-border: #ccc;
+    background-color: #eee;
+    cursor: not-allowed;
+}

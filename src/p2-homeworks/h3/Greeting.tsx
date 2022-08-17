@@ -16,9 +16,9 @@ const Greeting: React.FC<GreetingPropsType> = (
     const inputClass = s.error // need to fix with (?:)
     
     return (
-        <div>
+        <div className={s.HW3}>
             <input value={name} onChange={setNameCallback} className={inputClass}/>
-            <span>{error}</span>
+            <span className={s.errorClass}> {error}</span>
             <button onClick={addUser}>add</button>
             <span>{totalUsers}</span>
         </div>

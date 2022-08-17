@@ -1,3 +1,11 @@
-.someClass {
+.affairStyle {
+    display: inline-block;
+    background-color: lightblue;
+    margin-right: 5px;
+}
 
+.affairStyle1 {
+    display: inline-block;
+    background-color: lightsteelblue;
+    margin-right: 5px;
 }
