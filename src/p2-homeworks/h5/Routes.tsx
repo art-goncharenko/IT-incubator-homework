@@ -1,7 +1,10 @@
 import React from 'react'
+import Junior from "../h5-rrd-v6/pages/Junior";
 
 export const PATH = {
-    PRE_JUNIOR: '/pre-junior',
+    PRE_JUNIOR: '/PreJunior',
+    JUNIOR: '/Junior',
+    JUNIORPLUS: '/JuniorPlus'
     // add paths
 }
 
@@ -16,7 +19,9 @@ function Routes() {
             {/*<Route path={'/'} exact render={() => <Redirect to={PATH.PRE_JUNIOR}/>}/>*/}
 
             {/*<Route path={PATH.PRE_JUNIOR} render={() => <PreJunior/>}/>*/}
-                // add routes
+            {/*    <Route path={PATH.PRE_JUNIOR} render={() => <Junior/>}/>*/}
+
+            {/*    // add routes*/}
 
             {/*у этого роута нет пути, он отрисуется если пользователь захочет попасть на несуществующую страницу*/}
             {/*<Route render={() => <Error404/>}/>*/}
