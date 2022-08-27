@@ -1,21 +1,45 @@
-.HW3 {
+.greeting {
     display: flex;
     justify-content: center;
+    align-content: center;
+}
+.greeting_error {
+    color: red;
 }
 .homeworkTitle {
 }
 .inputClass {
     display: flex;
-    /*justify-content: center;*/
-    /*width: 100%;*/
-    /*flex-basis: 100%;*/
-    /*flex-grow: 1;*/
-}
-
-.errorClass {
-    display: block;
 }
 
 .error {
+    color: red;
     border: 1px solid red;
+}
+input {
+    background-color: white;
+    border: none;
+}
+input:focus {
+    outline: none;
+    border: #2196F3 solid 2px;
+    background-color: white;
+
+}
+.errorInput {
+    background: pink;
+    color: black;
+}
+
+button {
+    margin-left: 5px;
+    background: #2196F3;
+    color: white;
+    outline: none;
+}
+
+.count {
+    margin-left: 5px;
+    font-weight: bold;
+    color: #2196F3;
 }

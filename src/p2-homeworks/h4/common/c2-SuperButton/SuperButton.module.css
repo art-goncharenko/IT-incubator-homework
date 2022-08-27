@@ -1,7 +1,43 @@
-.default {
+@keyframes blink {
+    0% {
+        left: -130%;
+    }
+    100% {
+        left: 130%
+    }
+}
 
+.default {
+    background: #2196F3;
+    color: white;
+    outline: none;
 }
 
 .red {
     background: red;
+}
+
+button {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+button::after {
+    display: block;
+    content: '';
+    position: absolute;
+    left: -130%;
+    top: 0;
+    height: 100%;
+    width: 20%;
+
+    transform: skew(45deg);
+
+    background-color: white;
+    opacity: 0.8;
+}
+
+button:disabled {
+    color: black;
 }
