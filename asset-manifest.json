@@ -1,22 +1,13 @@
 {
   "files": {
-    "main.css": "/IT-incubator-homework/static/css/main.b2480c65.chunk.css",
-    "main.js": "/IT-incubator-homework/static/js/main.05018b56.chunk.js",
-    "main.js.map": "/IT-incubator-homework/static/js/main.05018b56.chunk.js.map",
-    "runtime-main.js": "/IT-incubator-homework/static/js/runtime-main.eb31292b.js",
-    "runtime-main.js.map": "/IT-incubator-homework/static/js/runtime-main.eb31292b.js.map",
-    "static/js/2.b4252b00.chunk.js": "/IT-incubator-homework/static/js/2.b4252b00.chunk.js",
-    "static/js/2.b4252b00.chunk.js.map": "/IT-incubator-homework/static/js/2.b4252b00.chunk.js.map",
+    "main.css": "/IT-incubator-homework/static/css/main.5d2e6f6d.css",
+    "main.js": "/IT-incubator-homework/static/js/main.2ddb526d.js",
     "index.html": "/IT-incubator-homework/index.html",
-    "precache-manifest.a5fc9064999bdeb7fded53393bc83cec.js": "/IT-incubator-homework/precache-manifest.a5fc9064999bdeb7fded53393bc83cec.js",
-    "service-worker.js": "/IT-incubator-homework/service-worker.js",
-    "static/css/main.b2480c65.chunk.css.map": "/IT-incubator-homework/static/css/main.b2480c65.chunk.css.map",
-    "static/js/2.b4252b00.chunk.js.LICENSE.txt": "/IT-incubator-homework/static/js/2.b4252b00.chunk.js.LICENSE.txt"
+    "main.5d2e6f6d.css.map": "/IT-incubator-homework/static/css/main.5d2e6f6d.css.map",
+    "main.2ddb526d.js.map": "/IT-incubator-homework/static/js/main.2ddb526d.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.eb31292b.js",
-    "static/js/2.b4252b00.chunk.js",
-    "static/css/main.b2480c65.chunk.css",
-    "static/js/main.05018b56.chunk.js"
+    "static/css/main.5d2e6f6d.css",
+    "static/js/main.2ddb526d.js"
   ]
 }
